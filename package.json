@@ -24,6 +24,8 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "spotify": "^0.3.0",
+    "spotify-web-api-node": "^2.3.6",
     "yelp": "^1.0.2"
   }
 }
