@@ -1,7 +1,25 @@
 .container{
-  // border: 2px solid black;
   text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+.grid{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 75%;
+  // border: 1px solid black;
+  margin: auto;
+  div{
+    margin-top: 15px;
+    text-align: center;
+    transition: transform .3s ease-in-out;
+    &:hover{
+      transform: scale(1.1);
+      // transform: rotate(360deg);
+    }
+  }
+
 }

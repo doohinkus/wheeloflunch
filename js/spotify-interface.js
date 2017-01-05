@@ -11,7 +11,17 @@ function getParameterByName(name, url) {
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
-var token = getParameterByName('code');
+// var token = getParameterByName('code');
 
-var test =new Spotify();
-test.getResult("adele", token);
+
+
+var currentArtist =new Spotify();
+
+
+$(document).ready(function (){
+  $("#search").click(function (event){
+    var artist = $('input#artist').val();
+    console.log(artist);
+    currentArtist.getResult(artist);
+  });
+});
