@@ -1,0 +1,22 @@
+{
+  "name": "dino-ipsum",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.17.1",
+    "bourbon": "^4.2.7",
+    "neat": "^1.8.0",
+    "bitters": "^1.5.0"
+  }
+}

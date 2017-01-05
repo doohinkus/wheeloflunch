@@ -1,0 +1,3 @@
+https://api.yelp.com/v2/search?oauth_consumer_key=iWf-75M-bOhSzhwMDXD8ZQ&oauth_token=bsqKgXWQ3eMRMLZyjo-3AYMf1xPhpXxN&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1483573777&oauth_nonce=p6hRdO&oauth_signature=ViRZSZ4AuEE7bNYiRlhtd0CqshU=&term=food&location=San+Francisco
+
+https://api.yelp.com/v2/search?oauth_consumer_key=iWf-75M-bOhSzhwMDXD8ZQ&oauth_token=bsqKgXWQ3eMRMLZyjo-3AYMf1xPhpXxN&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1483573895&oauth_nonce=LTgOG8&oauth_signature=mCpqkWhDf7Z9u/cWeK9gZZ5vi7E=&term=food&ll=37.788022,-122.399797
