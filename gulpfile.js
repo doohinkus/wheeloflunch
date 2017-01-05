@@ -6,7 +6,8 @@ var uglify = require('gulp-uglify');
 var utilities = require('gulp-util');
 var del = require('del');
 var jshint = require('gulp-jshint');
-var Yelp = require('yelp');
+// var Yelp = require('yelp');
+var spotify = require('spotify');
 var buildProduction = utilities.env.production;
 
 var lib = require('bower-files')({
